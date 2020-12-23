@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F17979"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Employee Clock-IN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/text"
+        android:alpha=".5"
+        android:background="@android:color/holo_red_dark" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/logo"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/steerlogo"
+        android:background="@drawable/circle"
+        android:layout_width="180dp"
+        android:layout_height="180dp"/>
+    <TextView
+        android:id="@+id/txt_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunitolight"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="xyjjjj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunitolight"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Administrator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/clocllkk"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunitolight"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Clock Time:- 12/18/2020 10:17:33 AM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <RadioGroup
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:textColor="@color/black"
+            android:buttonTint="#F17979"
+            android:id="@+id/clock"
+            android:text="Clock IN"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:textColor="@color/black"
+            android:checked="false"
+            android:buttonTint="#F17979"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/clockout"
+            android:text="Clock OUT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/text"
+        android:alpha=".5"
+        android:background="@android:color/holo_red_dark" />
+    <Button
+        android:id="@+id/button"
+        android:backgroundTint="#F17979"
+        android:text="Proceed"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>
